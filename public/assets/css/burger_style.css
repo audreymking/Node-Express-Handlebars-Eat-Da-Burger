@@ -1,9 +1,60 @@
+/* formats list */
 li {
     padding: 5px;
     margin: 5px;
-    background: #8ECAE6;
+    color: #17645C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
   }
-  
-  .form-group {
+
+/* formats margin */
+.form-group {
     margin-bottom: 5px;
-  }
+}
+
+/* full background color */
+body {
+    background: #CBF3F0;
+}
+
+/* formats cards */
+.card-body{
+    background: #F5F5F5;
+}
+
+/* formats card titles */
+.card-title {
+    font-weight: bold;
+    color: #FFB703;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* formats Add Burger title */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #17645C;
+}
+
+/* formats Eat Da Burger title */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FF9F1C
+}
+
+/* formats form textbox */
+input {
+    background-color: #FFBF69
+}
+
+/* Color references
+Orange Peel  FF9F1C
+Apricot FFBF69
+Light Gray EBEBEB
+Cyan CBF3F0
+Jungle Green 17645C
+*/

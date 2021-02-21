@@ -1,7 +1,7 @@
 <h1>Eat Da Burger Game!</h1>
 
 <div class="card-group">
-    <div class="card">
+    <div class="card bg-transparent">
         <div class="card-body">
             <h5 class="card-title">Eat these burgers!</h5>
             <ul>
@@ -10,7 +10,7 @@
                         <li>
                             {{this.burger_name}}
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>
-                            <button type="button" class="btn btn-info me-md-2 change-devoured" data-id="{{id}}" data-newdevoured="{{this.devoured}}">
+                            <button type="button" class="btn btn-warning me-md-2 change-devoured" data-id="{{id}}" data-newdevoured="{{this.devoured}}">
                                 {{#if this.devoured}}Buy Another One!{{else}}Eat!{{/if}}
                             </button>
                             <button type="button" class="btn btn-danger delete-burger" data-id="{{this.id}}">Throw it away!</button>
@@ -20,10 +20,10 @@
             </ul>
         </div>
     </div>
-    <div class="card">
-        <img src="https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg" class="img-fluid" alt="Burger Image">
+    <div class="card bg-transparent">
+            <img src="https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg" class="img-fluid" alt="Burger Image">
     </div>
-  <div class="card">
+  <div class="card bg-transparent">
         <div class="card-body">
             <h5 class="card-title">Burgers that have been eaten:</h5>
             <ul>
@@ -32,7 +32,7 @@
                         <li>
                             {{this.burger_name}}
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button type="button" class="btn btn-info me-md-2 change-devoured" data-id="{{id}}" data-newdevoured="{{this.devoured}}">
+                            <button type="button" class="btn btn-warning me-md-2 change-devoured" data-id="{{id}}" data-newdevoured="{{this.devoured}}">
                                 {{#if this.devoured}}Buy Another One!{{else}}Eat!{{/if}}
                             </button>
                             <button type="button" class="btn btn-danger delete-burger" data-id="{{this.id}}">Delete Burger!</button>
@@ -49,7 +49,7 @@
 <form id="create-form">
     <div class="d-grid gap-2 col-6 mx-auto form-group">
         <input type="text" id="ca" name="name" placeholder="Enter the name of the burger">
-        <button class="btn btn-primary btn-success" type="submit">Add the Burger</button>
+        <button class="btn btn-primary btn-success" type="submit">Add!</button>
     </div>
    
 </form>
