@@ -23,13 +23,13 @@ If you would like to try this application on your own:
 
 * fork this repo
 
-`
+```
 npm install
 
 npm install mysql
 
 node server.js
-`
+```
 
 ## Sources
 * [Burger image used in the app](https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg)
