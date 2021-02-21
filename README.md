@@ -20,8 +20,11 @@ This application allows the user to eat any burger they choose and buy more burg
 ## Installation
 
 If you would like to try this application on your own:
+
 * fork this repo
-`npm install
+
+`
+npm install
 
 npm install mysql
 
