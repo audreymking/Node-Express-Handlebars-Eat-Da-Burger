@@ -1,4 +1,4 @@
-# Node-Express-Handlebars-Eat-Da-Burger
+# Eat-Da-Burger Application
 
 This application allows the user to eat any burger they choose and buy more burgers if they are still hungry. They can even add more burgers to the list.
 
